@@ -335,11 +335,11 @@ map <down> <nop>
 map <left> <nop>
 map <right> <nop>
 
-" disable the substitute commands
-nnoremap s <nop>
-nnoremap S <nop>
-vnoremap s <nop>
-vnoremap S <nop>
+" disable the substitute commands (actually, I need these for vim-sneak)
+"nnoremap s <nop>
+"nnoremap S <nop>
+"vnoremap s <nop>
+"vnoremap S <nop>
 
 " Remap j and k to act as expected when used on long, wrapped lines
 nnoremap j gj
