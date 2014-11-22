@@ -2,9 +2,6 @@
 " Use vim settings, rather than vi settings
 set nocompatible
 
-" Change the mapleader from \ to ,
-let mapleader=","
-
 " Basic settings {{{
 
 " expand tabs by default (overloadable per filetype later)
