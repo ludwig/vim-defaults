@@ -665,11 +665,4 @@ cabbrev W w
 
 " }}}
 
-" lastly, load ~/.vim/user.vim if it exists.
-" note that this file is not kept in the repository, and therefore
-" we can use it to load machine-specific settings
-if filereadable(expand('~/.vim/user.vim'))
-    source ~/.vim/user.vim
-endif
-
 " vim: fen fdl=0 fdm=marker
